@@ -147,10 +147,12 @@ namespace Arpan_MediaPlayer
             if(suffle)
             {
                 suffle = false;
+                btnShuffle.BackColor = SystemColors.Control;
             }
             else
             {
                 suffle = true;
+                btnShuffle.BackColor = SystemColors.ButtonHighlight;
             }
         }
 

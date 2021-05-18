@@ -214,6 +214,7 @@ namespace Arpan_MediaPlayer
             // 
             // btnShuffle
             // 
+            this.btnShuffle.BackColor = System.Drawing.SystemColors.Control;
             this.btnShuffle.FlatAppearance.BorderSize = 0;
             this.btnShuffle.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnShuffle.Image = ((System.Drawing.Image)(resources.GetObject("btnShuffle.Image")));
@@ -222,7 +223,7 @@ namespace Arpan_MediaPlayer
             this.btnShuffle.Size = new System.Drawing.Size(53, 46);
             this.btnShuffle.TabIndex = 15;
             this.toolTip.SetToolTip(this.btnShuffle, "Shuffle");
-            this.btnShuffle.UseVisualStyleBackColor = true;
+            this.btnShuffle.UseVisualStyleBackColor = false;
             this.btnShuffle.Click += new System.EventHandler(this.btnSuffle_Click);
             // 
             // panel1
@@ -292,7 +293,7 @@ namespace Arpan_MediaPlayer
             // MainForm
             // 
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.None;
-            this.ClientSize = new System.Drawing.Size(1101, 550);
+            this.ClientSize = new System.Drawing.Size(1101, 547);
             this.Controls.Add(this.lblVolume);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.btnShuffle);
