@@ -297,7 +297,6 @@ namespace Arpan_MediaPlayer
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.btnShuffle);
             this.Controls.Add(this.lblVol);
-            this.Controls.Add(this.player);
             this.Controls.Add(this.axWindowsMediaPlayer1);
             this.Controls.Add(this.lblEnd);
             this.Controls.Add(this.lblStart);
@@ -311,6 +310,7 @@ namespace Arpan_MediaPlayer
             this.Controls.Add(this.btnPause);
             this.Controls.Add(this.btnPlay);
             this.Controls.Add(this.SongsList);
+            this.Controls.Add(this.player);
             this.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);

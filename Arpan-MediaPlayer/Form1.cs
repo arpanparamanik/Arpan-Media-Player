@@ -37,7 +37,7 @@ namespace Arpan_MediaPlayer
                 }
                 else
                 {
-                    imgAlbum.Image = Image.FromFile("Resources\\default.jpg");
+                    imgAlbum.Image = Properties.Resources._default;
                 }
             }
             catch(Exception ex)
